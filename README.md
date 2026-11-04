@@ -122,22 +122,6 @@ Memfasilitasi komunikasi antara pengguna dan apoteker untuk memperoleh informasi
 -Health Education (Edukasi Kesehatan)
 Menyediakan artikel dan materi edukasi mengenai penggunaan obat secara rasional, bahaya penyalahgunaan obat, pentingnya mengikuti aturan penggunaan, serta cara menyimpan obat dengan benar.
 
-E. Fitur Tambahan yang Direkomendasikan
-Untuk memperkuat tujuan aplikasi dalam mendukung SDG 3, terdapat beberapa fitur tambahan yang dapat dikembangkan:
--Drug Interaction Checker (Pemeriksa Interaksi Obat)
-Membantu pengguna mengetahui potensi interaksi antara dua atau lebih obat yang digunakan secara bersamaan. Hasil pemeriksaan disertai anjuran untuk berkonsultasi dengan apoteker atau tenaga kesehatan.
-
--Medication Reminder (Pengingat Konsumsi Obat)
-Memberikan pengingat kepada pengguna mengenai jadwal konsumsi obat sesuai dengan aturan yang diberikan oleh dokter atau apoteker.
-
--Prescription Management (Manajemen Resep)
-Memungkinkan pengguna menyimpan dan melihat informasi resep obat yang diberikan oleh dokter sehingga penggunaan obat dapat lebih terpantau.
-
--Misuse Prevention (Pencegahan Penyalahgunaan Obat)
-Menyediakan informasi mengenai risiko penyalahgunaan obat, tanda-tanda penggunaan obat yang tidak tepat, serta langkah pencegahan untuk meningkatkan kesadaran pengguna.
-
--Stock & Activity Report (Laporan Stok dan Aktivitas)
-Menampilkan laporan mengenai pergerakan stok, obat masuk, obat keluar, obat kedaluwarsa, dan aktivitas pengelolaan persediaan dalam periode tertentu.
 
 5. Teknologi yang Digunakan
 - Kotlin: Bahasa pemrograman utama.
