@@ -1,5 +1,6 @@
 💊 Stock Management Farmasi
  1. Penjelasan Aplikasi
+
 Stock Management Farmasi merupakan aplikasi Android yang dirancang untuk membantu pengelolaan persediaan obat di apotek secara terstruktur dan efisien.
 Aplikasi ini menggunakan sistem pengelolaan stok berbasis Batch/Lot Tracking untuk memantau jumlah persediaan dan tanggal kedaluwarsa setiap obat. Selain itu, aplikasi menerapkan metode FEFO (First Expired, First Out) agar obat dengan tanggal kedaluwarsa paling dekat diprioritaskan untuk dikeluarkan.
 Tidak hanya berfokus pada manajemen stok, aplikasi ini juga menyediakan layanan pencarian informasi obat berdasarkan nama maupun zat aktif, edukasi kesehatan, serta konsultasi antara pengguna dan apoteker untuk mendukung penggunaan obat yang aman dan mencegah penyalahgunaan zat.
