@@ -5,16 +5,15 @@ Aplikasi ini menggunakan sistem pengelolaan stok berbasis Batch/Lot Tracking unt
 Tidak hanya berfokus pada manajemen stok, aplikasi ini juga menyediakan layanan pencarian informasi obat berdasarkan nama maupun zat aktif, edukasi kesehatan, serta konsultasi antara pengguna dan apoteker untuk mendukung penggunaan obat yang aman dan mencegah penyalahgunaan zat.
 
 2. Tujuan Aplikasi
-1. Mempermudah pengelolaan persediaan obat di apotek.
-2. Memantau jumlah stok dan tanggal kedaluwarsa obat berdasarkan batch.
-3. Mengurangi risiko penumpukan obat yang mendekati kedaluwarsa.
-4. Menerapkan metode FEFO dalam pengeluaran obat.
-5. Memudahkan masyarakat memperoleh informasi obat berdasarkan nama atau zat aktif.
-6. Menyediakan layanan konsultasi antara pengguna dan apoteker.
-7. Meningkatkan edukasi masyarakat mengenai penggunaan obat yang aman dan pencegahan penyalahgunaan zat.
+- Mempermudah pengelolaan persediaan obat di apotek.
+- Memantau jumlah stok dan tanggal kedaluwarsa obat berdasarkan batch.
+- Mengurangi risiko penumpukan obat yang mendekati kedaluwarsa.
+- Menerapkan metode FEFO dalam pengeluaran obat.
+- Memudahkan masyarakat memperoleh informasi obat berdasarkan nama atau zat aktif.
+- Menyediakan layanan konsultasi antara pengguna dan apoteker.
+- Meningkatkan edukasi masyarakat mengenai penggunaan obat yang aman dan pencegahan penyalahgunaan zat.
 
 3. User Roles dan Fungsinya
-
 Aplikasi memiliki tiga jenis pengguna dengan hak akses dan tanggung jawab yang berbeda.
 A. Admin
 Admin merupakan pengelola utama sistem yang bertanggung jawab terhadap manajemen data dan pengawasan aplikasi.
@@ -126,6 +125,5 @@ Menampilkan laporan mengenai pergerakan stok, obat masuk, obat keluar, obat keda
 - Kotlin Coroutines & Flow: Mengelola proses asynchronous dan aliran data.
 - StateFlow: Mengelola perubahan UI State.
 
----
 
 Stock Management Farmasi – Smart Inventory Management for Safer Medication Use.
