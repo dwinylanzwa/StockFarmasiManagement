@@ -55,67 +55,117 @@ Fungsi dan hak akses:
 - Melaporkan dugaan penyalahgunaan obat.
 - Mengelola profil pribadi.
 
-4. Fitur Utama Aplikasi Stock Management Farmasi
-Berikut merupakan daftar fitur utama aplikasi Stock Management Farmasi beserta penjelasan fungsi dari setiap fitur. Fitur disusun berdasarkan kebutuhan pengelolaan stok obat di apotek serta mendukung penggunaan obat yang aman dan pencegahan penyalahgunaan zat sesuai dengan SDG 3 (Good Health and Well-being).
+4. Fitur Utama Aplikasi
+
+Fitur aplikasi disusun berdasarkan kebutuhan pengelolaan stok obat di apotek serta mendukung penggunaan obat yang aman dan pencegahan penyalahgunaan zat sesuai dengan tujuan SDG 3 (Good Health and Well-being).
+
 A. Fitur Pengelolaan Pengguna
-1. Authentication (Registrasi dan Login)
-Memungkinkan pengguna untuk membuat akun, login, dan logout agar dapat mengakses aplikasi sesuai dengan akun masing-masing.
-2. Role Management (Manajemen Hak Akses)
-Mengatur hak akses pengguna berdasarkan peran atau role. Misalnya, Admin/Apoteker bertugas mengelola data obat dan stok, sedangkan Pengguna/Pasien dapat mencari informasi obat dan melakukan konsultasi.
-3. Dashboard
-Menampilkan ringkasan informasi sesuai dengan role pengguna. Dashboard admin menampilkan jumlah stok obat, obat hampir kedaluwarsa, dan aktivitas persediaan. Dashboard pengguna menampilkan informasi obat, edukasi kesehatan, dan konsultasi.
+
+Authentication (Registrasi dan Login)
+
+Memungkinkan pengguna membuat akun, login, dan logout agar dapat mengakses aplikasi sesuai dengan akun masing-masing.
+
+Role Management (Manajemen Hak Akses)
+
+Mengatur hak akses pengguna berdasarkan peran atau role. Admin dan Apoteker bertugas mengelola data obat dan stok, sedangkan Pengguna dapat mencari informasi obat dan melakukan konsultasi.
+
+Dashboard
+
+Menampilkan ringkasan informasi sesuai dengan role pengguna. Dashboard Admin dan Apoteker menampilkan jumlah stok obat, obat hampir kedaluwarsa, serta aktivitas persediaan. Dashboard Pengguna menampilkan informasi obat, edukasi kesehatan, dan konsultasi.
 
 B. Fitur Manajemen Stok Obat
-4. Master Data Obat
+
+Master Data Obat
+
 Mengelola data obat yang tersedia di apotek, meliputi nama obat, kategori, jenis obat, zat aktif, dosis, bentuk sediaan, dan informasi lainnya.
-5. Batch/Lot Tracking
+
+Batch/Lot Tracking
+
 Memantau persediaan obat berdasarkan nomor batch atau lot. Setiap batch memiliki informasi jumlah stok, tanggal masuk, dan tanggal kedaluwarsa sehingga memudahkan pelacakan obat.
-6. Expired Alert (Notifikasi Kedaluwarsa)
+
+Expired Alert (Notifikasi Kedaluwarsa)
+
 Memberikan peringatan apabila terdapat obat yang mendekati tanggal kedaluwarsa maupun yang sudah kedaluwarsa agar dapat segera ditindaklanjuti.
-7. Stock In (Obat Masuk)
+
+Stock In (Obat Masuk)
+
 Mencatat setiap obat yang masuk ke apotek, baik dari pembelian supplier maupun pengadaan lainnya, termasuk jumlah, tanggal penerimaan, dan nomor batch.
-8. Stock Out (Obat Keluar)
+
+Stock Out (Obat Keluar)
+
 Mencatat setiap pengeluaran obat dari persediaan, seperti penjualan, penggunaan, atau pengeluaran untuk keperluan lainnya.
-9. FEFO (First Expired First Out)
+
+FEFO (First Expired, First Out)
+
 Mengatur prioritas pengeluaran obat berdasarkan tanggal kedaluwarsa terdekat sehingga obat yang lebih dahulu kedaluwarsa dapat dikeluarkan terlebih dahulu.
-10. Stock Adjustment (Penyesuaian Stok)
-Memungkinkan admin melakukan penyesuaian jumlah stok apabila terdapat perbedaan antara jumlah stok dalam sistem dengan kondisi sebenarnya.
-11. Return (Pengembalian Obat)
+
+Stock Adjustment (Penyesuaian Stok)
+
+Memungkinkan Admin atau Apoteker melakukan penyesuaian jumlah stok apabila terdapat perbedaan antara jumlah stok dalam sistem dengan kondisi sebenarnya.
+
+Return (Pengembalian Obat)
+
 Mencatat pengembalian obat, baik dari pelanggan maupun kepada supplier, dengan menyimpan informasi jumlah, alasan pengembalian, dan kondisi obat.
-12. Stock Opname
+
+Stock Opname
+
 Melakukan pemeriksaan dan pencocokan antara jumlah stok fisik dengan jumlah stok yang tercatat dalam sistem untuk memastikan keakuratan data persediaan.
 
 C. Fitur Pengelolaan Supplier dan Transaksi
-13. Supplier Management (Manajemen Supplier)
+
+Supplier Management (Manajemen Supplier)
+
 Mengelola informasi pemasok obat, seperti nama supplier, alamat, nomor telepon, dan informasi kontak lainnya.
-14. Purchase History (Riwayat Pembelian)
+
+Purchase History (Riwayat Pembelian)
+
 Menyimpan catatan seluruh transaksi pembelian obat dari supplier, termasuk tanggal pembelian, jenis obat, jumlah, dan total biaya pembelian.
-15. Barcode Scanner (Pemindai Barcode)
-Memungkinkan admin memindai barcode pada kemasan obat untuk membantu mengidentifikasi obat dan mempercepat proses pencarian maupun pencatatan stok.
+
+Barcode Scanner (Pemindai Barcode)
+
+Memungkinkan Admin atau Apoteker memindai barcode pada kemasan obat untuk membantu mengidentifikasi obat dan mempercepat proses pencarian maupun pencatatan stok.
 
 D. Fitur Informasi dan Edukasi Kesehatan
-16. Drug Information (Informasi Obat)
+
+Drug Information (Informasi Obat)
+
 Menyediakan informasi mengenai obat yang dapat dicari berdasarkan nama obat maupun zat aktifnya. Informasi mencakup kegunaan, kandungan, dosis umum, aturan penggunaan, efek samping, kontraindikasi, dan peringatan penggunaan obat.
-17. Drug Search by Substance (Pencarian Berdasarkan Zat Aktif)
+
+Drug Search by Substance (Pencarian Berdasarkan Zat Aktif)
+
 Memungkinkan pengguna mencari obat berdasarkan kandungan atau zat aktif tertentu. Fitur ini membantu pengguna mengenali kandungan obat dan menghindari penggunaan beberapa obat dengan zat aktif yang sama secara tidak sengaja.
-18. Consultation (Konsultasi Apoteker)
+
+Consultation (Konsultasi Apoteker)
+
 Memfasilitasi komunikasi antara pengguna dan apoteker untuk memperoleh informasi serta arahan mengenai penggunaan obat yang tepat, efek samping, interaksi obat, dan permasalahan terkait penggunaan obat.
-19. Health Education (Edukasi Kesehatan)
+
+Health Education (Edukasi Kesehatan)
+
 Menyediakan artikel dan materi edukasi mengenai penggunaan obat secara rasional, bahaya penyalahgunaan obat, pentingnya mengikuti aturan penggunaan, serta cara menyimpan obat dengan benar.
 
 E. Fitur Tambahan yang Direkomendasikan
-Untuk memperkuat tujuan aplikasi dalam mendukung SDG 3, terdapat beberapa fitur tambahan yang dapat dipertimbangkan:
-20. Drug Interaction Checker (Pemeriksa Interaksi Obat)
-Membantu pengguna mengetahui potensi interaksi antara dua atau lebih obat yang digunakan secara bersamaan. Hasil pemeriksaan perlu disertai anjuran untuk berkonsultasi dengan apoteker atau tenaga kesehatan.
-21. Medication Reminder (Pengingat Konsumsi Obat)
-Memberikan pengingat kepada pengguna mengenai jadwal konsumsi obat sesuai dengan aturan yang diberikan oleh dokter atau apoteker.
-22. Prescription Management (Manajemen Resep)
-Memungkinkan pengguna menyimpan dan melihat informasi resep obat yang diberikan oleh dokter sehingga penggunaan obat dapat lebih terpantau.
-23. Misuse Prevention (Pencegahan Penyalahgunaan Obat)
-Menyediakan informasi mengenai risiko penyalahgunaan obat, tanda-tanda penggunaan obat yang tidak tepat, serta langkah pencegahan untuk meningkatkan kesadaran pengguna.
-24. Stock & Activity Report (Laporan Stok dan Aktivitas)
-Menampilkan laporan mengenai pergerakan stok, obat masuk, obat keluar, obat kedaluwarsa, dan aktivitas pengelolaan persediaan dalam periode tertentu.
 
+Untuk memperkuat tujuan aplikasi dalam mendukung SDG 3, terdapat beberapa fitur tambahan yang dapat dikembangkan:
+
+Drug Interaction Checker (Pemeriksa Interaksi Obat)
+
+Membantu pengguna mengetahui potensi interaksi antara dua atau lebih obat yang digunakan secara bersamaan. Hasil pemeriksaan disertai anjuran untuk berkonsultasi dengan apoteker atau tenaga kesehatan.
+
+Medication Reminder (Pengingat Konsumsi Obat)
+
+Memberikan pengingat kepada pengguna mengenai jadwal konsumsi obat sesuai dengan aturan yang diberikan oleh dokter atau apoteker.
+
+Prescription Management (Manajemen Resep)
+
+Memungkinkan pengguna menyimpan dan melihat informasi resep obat yang diberikan oleh dokter sehingga penggunaan obat dapat lebih terpantau.
+
+Misuse Prevention (Pencegahan Penyalahgunaan Obat)
+
+Menyediakan informasi mengenai risiko penyalahgunaan obat, tanda-tanda penggunaan obat yang tidak tepat, serta langkah pencegahan untuk meningkatkan kesadaran pengguna.
+
+Stock & Activity Report (Laporan Stok dan Aktivitas)
+
+Menampilkan laporan mengenai pergerakan stok, obat masuk, obat keluar, obat kedaluwarsa, dan aktivitas pengelolaan persediaan dalam periode tertentu.
 5. Teknologi yang Digunakan
 - Kotlin: Bahasa pemrograman utama.
 - Jetpack Compose: Membangun antarmuka aplikasi.
