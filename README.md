@@ -12,7 +12,6 @@ Tidak hanya berfokus pada manajemen stok, aplikasi ini juga menyediakan layanan 
 - Menerapkan metode FEFO dalam pengeluaran obat.
 - Memudahkan masyarakat memperoleh informasi obat berdasarkan nama atau zat aktif.
 - Menyediakan layanan konsultasi antara pengguna dan apoteker.
-- Meningkatkan edukasi masyarakat mengenai penggunaan obat yang aman dan pencegahan penyalahgunaan zat.
 
 3. User Roles dan Fungsinya
 Aplikasi memiliki tiga jenis pengguna dengan hak akses dan tanggung jawab yang berbeda.
@@ -40,7 +39,6 @@ Fungsi dan hak akses:
 - Mengelola supplier dan riwayat pembelian.
 - Melakukan pemindaian barcode obat.
 - Melayani konsultasi pengguna.
-- Memberikan edukasi mengenai penggunaan obat yang benar dan aman.
 
 C. Pengguna
 Pengguna merupakan masyarakat atau pelanggan yang memanfaatkan aplikasi untuk memperoleh informasi obat dan layanan konsultasi kesehatan.
@@ -117,8 +115,6 @@ Memungkinkan pengguna mencari obat berdasarkan kandungan atau zat aktif tertentu
 -Consultation (Konsultasi Apoteker)
 Memfasilitasi komunikasi antara pengguna dan apoteker untuk memperoleh informasi serta arahan mengenai penggunaan obat yang tepat, efek samping, interaksi obat, dan permasalahan terkait penggunaan obat.
 
--Health Education (Edukasi Kesehatan)
-Menyediakan artikel dan materi edukasi mengenai penggunaan obat secara rasional, bahaya penyalahgunaan obat, pentingnya mengikuti aturan penggunaan, serta cara menyimpan obat dengan benar.
 
 
 5. Teknologi yang Digunakan
