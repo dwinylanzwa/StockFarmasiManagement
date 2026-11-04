@@ -26,7 +26,6 @@ Fungsi dan hak akses:
 - Memantau jumlah stok dan data batch obat.
 - Memantau obat expired dan near expired.
 - Melihat laporan dan riwayat transaksi.
-- Mengelola informasi edukasi obat.
 - Memantau aktivitas sistem.
 
 B. Apoteker
@@ -53,7 +52,6 @@ Fungsi dan hak akses:
 - Melakukan konsultasi dengan apoteker.
 - Melihat riwayat konsultasi.
 - Mengakses informasi dan edukasi kesehatan.
-- Melaporkan dugaan penyalahgunaan obat.
 - Mengelola profil pribadi.
 
 4. Fitur Utama Aplikasi
