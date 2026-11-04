@@ -60,6 +60,7 @@ Fungsi dan hak akses:
 Fitur aplikasi disusun berdasarkan kebutuhan pengelolaan stok obat di apotek serta mendukung penggunaan obat yang aman dan pencegahan penyalahgunaan zat sesuai dengan tujuan SDG 3 (Good Health and Well-being).
 
 A. Fitur Pengelolaan Pengguna
+
 -Authentication (Registrasi dan Login)
 Memungkinkan pengguna membuat akun, login, dan logout agar dapat mengakses aplikasi sesuai dengan akun masing-masing.
 
