@@ -15,6 +15,7 @@ Tidak hanya berfokus pada manajemen stok, aplikasi ini juga menyediakan layanan 
 
 3. User Roles dan Fungsinya
 Aplikasi memiliki tiga jenis pengguna dengan hak akses dan tanggung jawab yang berbeda.
+
 A. Admin
 Admin merupakan pengelola utama sistem yang bertanggung jawab terhadap manajemen data dan pengawasan aplikasi.
 Fungsi dan hak akses:
