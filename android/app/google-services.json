@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "23442847346",
+    "project_id": "halobat-1c413",
+    "storage_bucket": "halobat-1c413.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23442847346:android:c3f0ee66489013d50b34eb",
+        "android_client_info": {
+          "package_name": "com.example.halobat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "23442847346-7k6d91m4l423j1931mmucae0ce1ksa8u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.halobat",
+            "certificate_hash": "946ba0aedd79050eb8543901a791dd7ceefc4b82"
+          }
+        },
+        {
+          "client_id": "23442847346-9osgiat6n8hopjdt4r8mrju386ibo8i7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1iEfx3nCC_36ENX6X3w-haICWvcvdcq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "23442847346-9osgiat6n8hopjdt4r8mrju386ibo8i7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "23442847346-jsmru187uqtivi7hfigll2qpqmnvtdcr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.halobat"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
